@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dibyajyoti Raychoudhury - Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #f8f9fa);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #0052a0, #007bff);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      background-color: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    img {
+      display: block;
+      margin: 0 auto 30px auto;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #007bff;
+      box-shadow: 0 0 10px rgba(66, 12, 12, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #0052a0;
+      font-size: 1.8rem;
+      border-left: 5px solid #007bff;
+      padding-left: 15px;
+      margin-bottom: 15px;
+    }
+
+    ul, ol {
+      padding-left: 25px;
+    }
+
+    ul li, ol li {
+      margin-bottom: 10px;
+      font-size: 1.05rem;
+    }
+
+    strong {
+      color: #0052a0;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .contact-links a {
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 20px;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+      img {
+        width: 140px;
+        height: 140px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dibyajyoti Raychoudhury</h1>
+    <p>Computer Science Student | Future Software Engineer</p>
+  </header>
+
+  <main>
+    <!-- Profile -->
+    <section>
+      <img src="1745382824445.jpeg" alt="Profile Picture" />
+      <p style="text-align: center;">
+        I'm a passionate Computer Science student who loves to build impactful projects using code. I enjoy learning new technologies, solving problems, and contributing to tech communities.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h2>Skills & Interests</h2>
+      <ul>
+        <li>C, C++, Java</li>
+        <li>HTML, CSS, JavaScript (Frontend Basics)</li>
+        <li>Python, Flask (Backend Development)</li>
+        <li>Machine Learning & AI</li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2>Education</h2>
+      <ol>
+        <li>Central Institute of Technology, Kokrajhar – B.Tech in Computer Science</li>
+        <li>Chandraprabha Saikiani Academy of Science – Class 12</li>
+      </ol>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Prescription OCR App</strong> – Detects and validates medicine names from handwritten prescriptions using Python, Flask, and OCR (TrOCR).
+        </li>
+        <li>
+          <strong>Personal Portfolio Website</strong> – A stylish responsive personal site built with HTML and CSS to highlight projects and skills.
+        </li>
+        <li>
+          <strong>Crop Recommendation System</strong> – ML-based system that recommends suitable crops based on soil type, pH, rainfall, and weather patterns.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p class="contact-links">
+        Connect with me:
+        <a href="https://www.linkedin.com/in/dibyajyoti-raychoudhury-6b4a92284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+        |
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dibyaroy1233@gmail.com" target="_blank">Email</a>
+        |
+
+        <a href="https://github.com/Dibya2005" target="_blank">GitHub</a>
+      </p>
+    </footer>
+  </main>
+
+</body>
+</html>
